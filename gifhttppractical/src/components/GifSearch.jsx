@@ -38,7 +38,7 @@ export default class GifSearch extends Component {
     const value = this.state.input.trim();
     if (!value) return;
     this.props.onSubmit(value);
-    // keep input if you prefer clearing remove next line
+   
     this.setState({ input: '' });
   };
 
